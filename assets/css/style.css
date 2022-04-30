@@ -41,6 +41,7 @@ header nav{
      color: white;
      font-size: 1.5vw;
      font-weight: lighter;
+     text-decoration: none;
  }
 
  /*hero section start*/
@@ -66,4 +67,28 @@ header nav{
     .hero-quote h2{
         font-style: italic;
         color: gold;
+    }
+    
+    /*about-me section start*/
+    .about-me{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+
+    .about-me h2{
+        font-size: 50px;
+        padding: 0 40px;
+        border-right: 3px solid white;
+        color: blueviolet;
+        font-style: italic;
+    }
+
+    .about-me p{
+        font-size: 21px;
+        padding: 0 20px;
+        line-height: 1.0;
+        color: blueviolet;
+        margin-top: 10px;
+       
     }
