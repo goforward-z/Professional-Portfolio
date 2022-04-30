@@ -92,3 +92,19 @@ header nav{
         margin-top: 10px;
        
     }
+
+    /*my projects section start*/
+    .projects{
+        display:flex;
+        justify-content: space-between;
+        margin: 40px 0px;
+    }
+
+    .section-title{
+        font-size: 50px;
+        padding: 0 40px;
+        border-right: 3px solid white;
+        color: blueviolet;
+        font-style: italic;
+
+    }
