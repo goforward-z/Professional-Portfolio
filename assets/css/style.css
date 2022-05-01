@@ -267,7 +267,7 @@ header nav{
             padding: 15px;
         }
         .projects{
-            flex-direction: column-reverse;
+            flex-direction: column;
             padding: 30px 0;
         }
         .projects-grid-wrapper{
