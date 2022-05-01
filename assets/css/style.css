@@ -121,8 +121,8 @@ header nav{
         display: grid;
         grid-auto-flow: column;
         grid-template-areas: 
-        "A B"
-        "A C";
+        "C B"
+        "C A";
         gap: 10px;
     }
     .run-buddy{
