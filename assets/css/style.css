@@ -198,5 +198,15 @@ header nav{
         padding: 8px;
         font-weight: bold;
     }
-
+    .title-3{
+        font-size: 48px;
+        margin-left: 39px;
+        border-right: 3px solid white;
+        padding-right: 25px;
+        font-style: italic;
+    }
     
+    footer ul li a:hover{
+        background: white;
+        border-radius: 50%;
+    }
