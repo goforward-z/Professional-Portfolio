@@ -43,6 +43,10 @@ header nav{
      font-weight: lighter;
      text-decoration: none;
  }
+ header nav ul li a:hover{
+     background: gold;
+     border-radius: 50%;
+ }
 
  /*hero section start*/
  .hero{
@@ -202,11 +206,84 @@ header nav{
         font-size: 48px;
         margin-left: 39px;
         border-right: 3px solid white;
-        padding-right: 25px;
+        padding-right: 88px;
         font-style: italic;
     }
     
     footer ul li a:hover{
         background: white;
         border-radius: 50%;
+    }
+    @media screen and (max-width:768px) {
+        .hero-quote{
+            font-size: 28;
+            padding-right: 20px;
+        }
+        .hero-quote p{
+            font-size: 35px;
+
+        }
+
+        .title h2{
+            font-size: 35px;
+        }
+
+        .title-3{
+            font-size: 35px;
+        }
+
+        .about-me p{
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        
+    }
+
+    @media screen and (max-width:575px) {
+        header{
+            justify-content: center;
+            padding: 20px;
+        }
+        header nav ul{
+            min-height: 80px;
+        }
+        .hero{
+            flex-direction: column;
+        }
+        .about-me{
+            flex-direction: column;
+        }
+        .title{
+            border-bottom: 3px solid white;
+            border-right: none;
+            text-align: center;
+            min-width: 100%;
+            min-width: 100%;
+            padding: 0;
+        }
+        .about-me p{
+            font-size: 16px;
+            padding: 15px;
+        }
+        .projects{
+            flex-direction: column-reverse;
+            padding: 30px 0;
+        }
+        .projects-grid-wrapper{
+            width: 100%;
+            padding: 10px;
+        }
+        footer{
+            flex-direction: column;
+            
+        }
+        footer ul{
+            flex-direction: column;
+        }
+        footer ul li{
+            padding: 10px;
+            text-align: center;
+        }
+        
     }
