@@ -145,4 +145,35 @@ header nav{
          opacity: 1.0;
     }
 
+    .projects-label{
+        color: blueviolet;
+    }
+
+    /*contact me section start*/
+    footer{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        margin-bottom: 30px;
+        
+    }
+
+    footer ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+        list-style: none;
+    }
+    .content-list{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
     
