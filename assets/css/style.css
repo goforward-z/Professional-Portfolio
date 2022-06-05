@@ -141,9 +141,9 @@ header nav{
         color: black;
     }
 
-    .horiseon{
+    .organizer-notifier{
         grid-area: B;
-        background-image: url(../images/horiseon.png);
+        background-image: url(../images/o.png);
     }
 
     .robot-gladiators{
